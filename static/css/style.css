@@ -1,5 +1,5 @@
 html {overflow-y: scroll}
-body{max-width:800px;margin:40px auto;padding:0 10px;font:14px/1.5 monospace;color:#444}h1,h2,h3{line-height:1.2}@media (prefers-color-scheme: dark){body{color:white;background:#444}a:link{color:#5bf}a:visited{color:#ccf}}
+body{max-width:800px;margin:40px auto;padding:0 10px;font:18px/1.5 Sans-serif;color:#444}@media (prefers-color-scheme: dark){body{color:white;background:#444}a:link{color:#5bf}a:visited{color:#ccf}}
 p > code{color: #FFFFFF; background:#000000; padding:2px}
 pre{color: #FFFFFF; background:#000000; padding:24px; overflow-x: auto}
 article{padding:24px 0}
@@ -7,3 +7,14 @@ article{padding:24px 0}
 img {display: block; max-width: 100%; height: auto;}
 figcaption {color: #888; font: 12px/1.5 monospace; text-align: center;}
 figure {margin: auto}
+/** Custom */
+h2 {border-bottom: 1px solid lightgray; padding-bottom: 18px;}
+body{background-color: #f3f2ee;}
+
+/** http://mrmrs.io/links/ */
+a {transition: color .4s; color: #265C83;}
+a:link,
+a:visited { color: #467CA3; }
+a:hover   { color: #063C63; }
+
+.link { text-decoration: none; }
