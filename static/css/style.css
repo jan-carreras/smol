@@ -10,6 +10,7 @@ figure {margin: auto}
 /** Custom */
 h2 {border-bottom: 1px solid lightgray; padding-bottom: 18px;}
 body{background-color: #f3f2ee;}
+.post-title a { padding-left: 16px; }
 
 /** http://mrmrs.io/links/ */
 a {transition: color .4s; color: #265C83;}
